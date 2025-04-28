@@ -129,17 +129,17 @@ Start-Sleep -Seconds 2
 
 # Enter user info
 Write-Host "🧑 Entering user information..."
-[System.Windows.Forms.SendKeys]::SendWait("angel@promationusa.com")
+[System.Windows.Forms.SendKeys]::SendWait("")
 Start-Sleep -Seconds 3
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
 Start-Sleep -Seconds 2
-[System.Windows.Forms.SendKeys]::SendWait("Promation Inc")
+[System.Windows.Forms.SendKeys]::SendWait("")
 Start-Sleep -Seconds 2
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
 Start-Sleep -Seconds 2
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
 Start-Sleep -Seconds 2
-[System.Windows.Forms.SendKeys]::SendWait("10000070")
+[System.Windows.Forms.SendKeys]::SendWait("")
 Start-Sleep -Seconds 2
 [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
 Start-Sleep -Seconds 2
